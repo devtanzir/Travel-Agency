@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content=" My Practice Website To The work i have done so far, the services i provide and all my professional life"
+    />
+
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaSript, Landing Page, Figma to html"
+    />
+    <meta name="aurthor" content="Tanzir Ibne ali" />
+
+    <title>Travel Agency Landing Page</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assest/css/style.css" />
+  </head>
+  <body>
+    <!-- ============================
+    header section start
+    ============================== -->
+
+    <header class="header">
+      <div class="container">
+        <div class="header-start">
+          <div class="header-logo">
+            <h3>
+              Trabook
+              <span>
+                <svg
+                  class="logo-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                >
+                  <path
+                    d="M1.64111 4.96058C1.79426 4.76583 1.99595 4.50221 2.15747 4.31379C2.6412 3.79446 2.70397 3.72638 3.14417 3.34242C3.27473 3.24108 3.42956 3.11917 3.58103 3.00437C2.46378 3.89896 2.32151 4.88933 3.3467 5.50129C3.34503 5.50129 3.34503 5.50129 3.34503 5.50287C4.77863 6.31987 7.92034 6.14333 10.3992 5.09675C12.8003 4.08342 13.6865 2.63388 12.5015 1.77254C11.4612 1.58808 10.221 1.56671 8.90871 1.73296L8.7723 1.52L8.88528 1.16692C9.6569 1.10121 10.39 1.11704 11.0227 1.21917C11.1759 1.24371 11.3776 1.28567 11.5282 1.31575C11.8194 1.38304 11.9776 1.42342 12.1676 1.48121C12.3617 1.53583 12.5274 1.59046 12.8162 1.69179C13.099 1.79708 13.2212 1.84458 13.448 1.95146C13.702 2.06108 13.9488 2.18506 14.187 2.32275C16.0751 3.44612 14.9009 5.49575 11.5692 6.90017C8.24673 8.29983 4.01287 8.51992 2.11563 7.41C2.11479 7.40842 2.11228 7.40683 2.10726 7.40525H2.11061C1.07453 6.78458 0.965735 5.88367 1.64111 4.96058ZM10.2854 12.8139L10.2586 11.552L9.31042 10.5545C6.17792 11.2258 3.09898 11.0817 1.38669 10.1278C1.38084 10.1215 1.36661 10.1151 1.36075 10.1088C0.391624 9.54433 0.152272 8.816 0.225082 8.02433C-0.00171646 9.18254 -0.0201282 9.60054 0.0125108 10.5917C0.0526817 11.2124 0.431795 11.7847 1.19421 12.236L1.20007 12.2423C3.02533 13.3158 6.82819 13.5486 10.2854 12.8139ZM14.2397 14.2587C9.81842 15.9362 4.28486 16.0352 1.8813 14.4827C2.14087 15.0828 2.49406 15.6427 2.92909 16.1437C5.13515 17.5687 10.2143 17.4776 14.2707 15.9378C16.645 15.0377 18.143 13.8399 18.5364 12.7173L18.6468 12.3793C18.9088 11.5227 18.9582 10.8094 19 10.1745C18.9523 11.5528 17.2358 13.1203 14.2397 14.2587ZM4.47986 17.4895C4.61878 17.6146 5.05564 18.122 7.26923 18.6825C7.86761 18.8076 9.37403 19.209 12.1567 18.6255L12.1734 18.3857L11.9533 18.0595C9.37151 18.6374 6.50347 18.4442 4.47986 17.4895ZM10.8687 7.50737L13.2196 9.19283C13.2196 9.19283 13.7225 9.53563 13.248 9.77629C12.7752 10.0146 11.5608 10.598 11.5608 10.598L10.3616 10.1745L9.75983 10.4278L10.821 11.2995L10.8294 12.6556L11.4529 12.3935L11.8663 11.248C11.8663 11.248 13.1359 10.7857 13.6397 10.6115C14.146 10.4413 14.0782 11.024 14.0782 11.024L13.8288 13.8035L14.6573 13.4552L16.0215 9.70504C16.0215 9.70504 16.7446 9.37254 17.2534 9.08042C17.7614 8.78829 17.9355 8.30379 17.9355 8.30379C17.9355 8.30379 17.44 8.10192 16.8693 8.26421C16.2985 8.42492 15.5545 8.7115 15.5545 8.7115L11.6947 7.16062L10.8687 7.50737ZM5.89505 2.17471L7.49101 3.37725L7.92703 3.3155L7.05833 2.23646C7.05833 2.23646 6.8692 2.01321 7.12361 1.96017C7.3797 1.90633 8.02746 1.78125 8.02746 1.78125L8.51453 2.14937L8.8426 2.10346L8.47101 1.54454L8.66685 0.924667L8.34966 0.968208L7.9739 1.44004C7.9739 1.44004 7.31442 1.49862 7.05499 1.51921C6.79388 1.53821 6.90602 1.273 6.90602 1.273L7.40648 0L6.96795 0.0609583L5.81303 1.65142C5.81303 1.65142 5.42806 1.71792 5.14938 1.79313C4.86985 1.86754 4.72256 2.07179 4.72256 2.07179C4.72256 2.07179 4.9276 2.22854 5.21633 2.223C5.50757 2.21746 5.89505 2.17471 5.89505 2.17471ZM13.7828 17.6265L12.7501 17.1158L12.5124 17.1942L13.1242 17.712C13.1242 17.712 13.2547 17.8172 13.1175 17.8735C12.9802 17.9289 12.6304 18.065 12.6304 18.065L12.3417 17.9431L12.1701 18.0017L12.4103 18.244L12.3868 18.5978L12.5659 18.5392L12.6998 18.2519C12.6998 18.2519 13.0631 18.1497 13.2078 18.1133C13.3518 18.0761 13.3192 18.236 13.3192 18.236L13.1827 19L13.4213 18.9216L13.8891 17.9115C13.8891 17.9115 14.0958 17.8347 14.2439 17.7642C14.3921 17.6937 14.4506 17.5639 14.4506 17.5639C14.4506 17.5639 14.3192 17.4958 14.1569 17.5299C13.9937 17.5623 13.7828 17.6265 13.7828 17.6265Z"
+                    fill="#666666"
+                  /></svg
+              ></span>
+            </h3>
+          </div>
+          <nav class="navbar">
+            <ul class="navbar-lists">
+              <li><a href="#" class="navbar-link"> Home</a></li>
+              <li>
+                <a href="#" class="navbar-link"> About</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">Destination</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">Tour</a>
+              </li>
+              <li>
+                <a href="#" class="navbar-link">Blog</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="login-btns">
+            <a href="#" class="login-btn">Login</a>
+            <button class="btn-signUp">Sign up</button>
+          </div>
+          <div class="mobile-navbar-btn">
+            <ion-icon class="mobile-nav-icon" name="menu"></ion-icon>
+            <ion-icon class="mobile-nav-icon" name="close"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============================
+    header section end
+    ============================== -->
+
+    <!-- ============================
+    hero section start
+    ============================== -->
+
+    <main>
+      <section class="section-hero section">
+        <div class="container grid grid-two-column">
+          <div class="section-hero-data">
+            <h1 class="hero-headind">
+              Get started your exciting <span class="journey">journey</span>with
+              us.
+            </h1>
+            <p class="hero-para">
+              A Team of experienced tourism professionals will provide you with
+              the best advice and tips for your desire place.
+            </p>
+            <button class="btn-discover">Discover Now</button>
+          </div>
+          <!-- hero section right side -->
+          <div class="section-hero-image">
+            <img src="assest/img/hero.png" alt="hero" />
+            <!-- mini card section -->
+            <div class="best-awards">
+              <div class="awards-logo">
+                <img src="assest/img/awards.png" alt="trophy" />
+              </div>
+              <div class="awards-text">
+                <p>Best Tour Awards</p>
+              </div>
+            </div>
+
+            <div class="explore">
+              <div class="explore-logo">
+                <img src="assest/img/google-map.png" alt="map" />
+              </div>
+              <div class="explore-text">
+                <p>Explore</p>
+                <span>Every cornar of the world with us</span>
+              </div>
+            </div>
+
+            <div class="rating">
+              <div class="rating-logo">
+                <img src="assest/img/star.png" alt="map" />
+              </div>
+              <div class="rating-text">
+                <p>27K</p>
+                <span>Customer Reviewd</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-details">
+          <div class="explore-container grid grid-four-column">
+            <div class="location">
+              <h6>Location <i class="fa-solid fa-chevron-down"></i></h6>
+              <p>Where are you going</p>
+            </div>
+            <div class="date">
+              <h6>Date <i class="fa-solid fa-chevron-down"></i></h6>
+              <p>When you will go</p>
+            </div>
+            <div class="guest">
+              <h6>Guest <i class="fa-solid fa-chevron-down"></i></h6>
+              <p>Number of guest</p>
+            </div>
+            <div class="explore-now">
+              <button class="explore-btn">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================
+    hero section end
+    ============================== -->
+
+    <!-- ============================
+    Things You Need To Do Section Start
+    ============================== -->
+
+    <section class="section-things-need section">
+      <img class="element" src="assest/img/Element.png" alt="" />
+      <div class="common-heading">
+        <h2>Things you need <span>to do</span></h2>
+        <p>
+          We ensure that you’ll embark on a perfectly planned, safe vacation at
+          a price you can afford.
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="card-section grid grid-three-column">
+          <div class="boxes DownToUp">
+            <img src="assest/img/Group.png" alt="image" />
+            <h5>Sign Up</h5>
+            <p>
+              Completes all the work associated with planning and processing
+            </p>
+          </div>
+          <div class="boxes UpToDown">
+            <img src="assest/img/wallet.png" alt="image" />
+            <h5>Worth of Money</h5>
+            <p>
+              After successful access then book from exclusive deals & pricing
+            </p>
+          </div>
+          <div class="boxes DownToUp">
+            <img src="assest/img/location-dot.png" alt="image" />
+            <h5>Exciting Travel</h5>
+            <p>Start and explore a wide range of exciting travel experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============================
+    Things You Need To Do Section End
+    ============================== -->
+
+    <!-- ============================
+    Pricing Table section start
+    ============================== -->
+
+    <section class="section-pricing section">
+      <div class="common-heading">
+        <h2>Exclusive <span>deals & discounts</span></h2>
+        <p>
+          Discover our fantastic early booking discounts & start planning your
+          journey.
+        </p>
+      </div>
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper pricing-table">
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price1.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>Madrid</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> Spain</h5>
+                    <span class="previous-price">$950</span>
+                    <span class="price-btn">$850</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price2.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>Firenze</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.5</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> Italy</h5>
+                    <span class="previous-price">$850</span>
+                    <span class="price-btn">$750</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price3.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>France</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.4</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> France</h5>
+                    <span class="previous-price">$699</span>
+                    <span class="price-btn">$599</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price4.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>London</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> UK</h5>
+                    <span class="previous-price">$950</span>
+                    <span class="price-btn">$850</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price1.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>Madrid</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> Spain</h5>
+                    <span class="previous-price">$950</span>
+                    <span class="price-btn">$850</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price2.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>Firenze</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.5</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> Italy</h5>
+                    <span class="previous-price">$850</span>
+                    <span class="price-btn">$750</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price3.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>France</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.4</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> France</h5>
+                    <span class="previous-price">$699</span>
+                    <span class="price-btn">$599</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="pricing-card">
+                <div class="card-top">
+                  <div class="hoverBtn">
+                    <button class="BookNowBtn">Book Now</button>
+                  </div>
+                  <img src="assest/img/price4.png" alt="image" />
+                </div>
+                <div class="card-bottom">
+                  <div class="bottom-top">
+                    <h5>London</h5>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                  <div class="bottom-bottom">
+                    <h5><i class="fa-solid fa-location-dot"></i> UK</h5>
+                    <span class="previous-price">$950</span>
+                    <span class="price-btn">$850</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-btns">
+        <i class="fa-solid fa-arrow-left price-prev-btn"></i>
+        <i class="fa-solid fa-arrow-right price-next-btn"></i>
+      </div>
+    </section>
+
+    <!-- ============================
+    Pricing Table section end
+    ============================== -->
+
+    <!-- ============================
+    Planing section start
+    ============================== -->
+
+    <section class="section section-planing">
+      <div class="container">
+        <div class="common-heading">
+          <h2>Best <span>vacation plan</span></h2>
+          <p>
+            Plan your perfect vacation with our travel agency. Choose among
+            hundreds of all-inclusive offers!
+          </p>
+        </div>
+        <div class="pumTree">
+          <img src="assest/img/pumTree.png" alt="image" />
+        </div>
+        <div class="slider-btns secoend-slider-btn">
+          <i class="fa-solid fa-arrow-left plane-prev-btn"></i>
+          <i class="fa-solid fa-arrow-right plane-next-btn"></i>
+        </div>
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper chose-your-plan">
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane1.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Rome, Italty</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane2.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>London,UK</h5>
+                    <h6>$2,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 07 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane3.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Osaka,Japan</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane1.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Rome, Italty</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane2.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>London,UK</h5>
+                    <h6>$2,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 07 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane3.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Osaka,Japan</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane1.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Rome, Italty</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane2.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>London,UK</h5>
+                    <h6>$2,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 07 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.7</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="selector-box">
+                <div class="box-top">
+                  <img src="assest/img/plane3.png" alt="image" />
+                </div>
+                <div class="box-bottom">
+                  <div class="box-bottom-top">
+                    <h5>Osaka,Japan</h5>
+                    <h6>$5,42k</h6>
+                  </div>
+                  <div class="box-bottom-bottom">
+                    <p>
+                      <i class="fa-solid fa-location-arrow"></i> 10 Days Trip
+                    </p>
+                    <span><i class="fa-solid fa-star"></i> 4.8</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+    Planing section end
+    ============================== -->
+
+    <!-- ============================
+    About us section start
+    ============================== -->
+
+    <section class="section section-about">
+      <div class="container grid grid-two-column">
+        <div class="about-text">
+          <div class="common-heading">
+            <h2>What people say <span>about Us.</span></h2>
+            <p>
+              Plan your perfect vacation with our travel agency. Choose among
+              hundreds of all-inclusive offers!
+            </p>
+          </div>
+          <div class="slider-btns">
+            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="about-boxes">
+          <div class="biman">
+            <img src="assest/img/aboutplane.png" alt="image" />
+          </div>
+          <div class="mike-taylor">
+            <p>
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <h5>Mike taylor</h5>
+            <h6>Lahore, Pakistan</h6>
+          </div>
+          <div class="chris-thomas">
+            <h5>Chris Thomas</h5>
+            <h6>CEO of Red Button</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+    About us section end
+    ============================== -->
+
+    <!-- ============================
+    blog section start
+    ============================== -->
+
+    <section class="section section-blog">
+      <div class="common-heading">
+        <h2>Get update with <span>latest blog</span></h2>
+      </div>
+      <div class="container">
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper blog-post">
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog1.png" alt="blog-image" />
+                </div>
+                <h5>The Amazing Difference a Year of Travelling .</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog2.png" alt="blog-image" />
+                </div>
+                <h5>Travel far enough, you meet yourself.</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog3.png" alt="blog-image" />
+                </div>
+                <h5>How to Save Money While Visiting Africa .</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog4.png" alt="blog-image" />
+                </div>
+                <h5>Reflections on 5 Months of Travel: Time to Hang</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog1.png" alt="blog-image" />
+                </div>
+                <h5>The Amazing Difference a Year of Travelling .</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog2.png" alt="blog-image" />
+                </div>
+                <h5>Travel far enough, you meet yourself.</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog3.png" alt="blog-image" />
+                </div>
+                <h5>How to Save Money While Visiting Africa .</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="post">
+                <div class="post-top">
+                  <img src="assest/img/blog4.png" alt="blog-image" />
+                </div>
+                <h5>Reflections on 5 Months of Travel: Time to Hang</h5>
+                <p>July 27, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+    blog section end
+    ============================== -->
+
+    <!-- ============================
+    footer section start
+    ============================== -->
+
+    <footer class="section-footer section">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="f-about">
+            <h3>
+              Trabook
+              <span>
+                <svg
+                  class="logo-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                  fill="none"
+                >
+                  <path
+                    d="M1.64111 4.96058C1.79426 4.76583 1.99595 4.50221 2.15747 4.31379C2.6412 3.79446 2.70397 3.72638 3.14417 3.34242C3.27473 3.24108 3.42956 3.11917 3.58103 3.00437C2.46378 3.89896 2.32151 4.88933 3.3467 5.50129C3.34503 5.50129 3.34503 5.50129 3.34503 5.50287C4.77863 6.31987 7.92034 6.14333 10.3992 5.09675C12.8003 4.08342 13.6865 2.63388 12.5015 1.77254C11.4612 1.58808 10.221 1.56671 8.90871 1.73296L8.7723 1.52L8.88528 1.16692C9.6569 1.10121 10.39 1.11704 11.0227 1.21917C11.1759 1.24371 11.3776 1.28567 11.5282 1.31575C11.8194 1.38304 11.9776 1.42342 12.1676 1.48121C12.3617 1.53583 12.5274 1.59046 12.8162 1.69179C13.099 1.79708 13.2212 1.84458 13.448 1.95146C13.702 2.06108 13.9488 2.18506 14.187 2.32275C16.0751 3.44612 14.9009 5.49575 11.5692 6.90017C8.24673 8.29983 4.01287 8.51992 2.11563 7.41C2.11479 7.40842 2.11228 7.40683 2.10726 7.40525H2.11061C1.07453 6.78458 0.965735 5.88367 1.64111 4.96058ZM10.2854 12.8139L10.2586 11.552L9.31042 10.5545C6.17792 11.2258 3.09898 11.0817 1.38669 10.1278C1.38084 10.1215 1.36661 10.1151 1.36075 10.1088C0.391624 9.54433 0.152272 8.816 0.225082 8.02433C-0.00171646 9.18254 -0.0201282 9.60054 0.0125108 10.5917C0.0526817 11.2124 0.431795 11.7847 1.19421 12.236L1.20007 12.2423C3.02533 13.3158 6.82819 13.5486 10.2854 12.8139ZM14.2397 14.2587C9.81842 15.9362 4.28486 16.0352 1.8813 14.4827C2.14087 15.0828 2.49406 15.6427 2.92909 16.1437C5.13515 17.5687 10.2143 17.4776 14.2707 15.9378C16.645 15.0377 18.143 13.8399 18.5364 12.7173L18.6468 12.3793C18.9088 11.5227 18.9582 10.8094 19 10.1745C18.9523 11.5528 17.2358 13.1203 14.2397 14.2587ZM4.47986 17.4895C4.61878 17.6146 5.05564 18.122 7.26923 18.6825C7.86761 18.8076 9.37403 19.209 12.1567 18.6255L12.1734 18.3857L11.9533 18.0595C9.37151 18.6374 6.50347 18.4442 4.47986 17.4895ZM10.8687 7.50737L13.2196 9.19283C13.2196 9.19283 13.7225 9.53563 13.248 9.77629C12.7752 10.0146 11.5608 10.598 11.5608 10.598L10.3616 10.1745L9.75983 10.4278L10.821 11.2995L10.8294 12.6556L11.4529 12.3935L11.8663 11.248C11.8663 11.248 13.1359 10.7857 13.6397 10.6115C14.146 10.4413 14.0782 11.024 14.0782 11.024L13.8288 13.8035L14.6573 13.4552L16.0215 9.70504C16.0215 9.70504 16.7446 9.37254 17.2534 9.08042C17.7614 8.78829 17.9355 8.30379 17.9355 8.30379C17.9355 8.30379 17.44 8.10192 16.8693 8.26421C16.2985 8.42492 15.5545 8.7115 15.5545 8.7115L11.6947 7.16062L10.8687 7.50737ZM5.89505 2.17471L7.49101 3.37725L7.92703 3.3155L7.05833 2.23646C7.05833 2.23646 6.8692 2.01321 7.12361 1.96017C7.3797 1.90633 8.02746 1.78125 8.02746 1.78125L8.51453 2.14937L8.8426 2.10346L8.47101 1.54454L8.66685 0.924667L8.34966 0.968208L7.9739 1.44004C7.9739 1.44004 7.31442 1.49862 7.05499 1.51921C6.79388 1.53821 6.90602 1.273 6.90602 1.273L7.40648 0L6.96795 0.0609583L5.81303 1.65142C5.81303 1.65142 5.42806 1.71792 5.14938 1.79313C4.86985 1.86754 4.72256 2.07179 4.72256 2.07179C4.72256 2.07179 4.9276 2.22854 5.21633 2.223C5.50757 2.21746 5.89505 2.17471 5.89505 2.17471ZM13.7828 17.6265L12.7501 17.1158L12.5124 17.1942L13.1242 17.712C13.1242 17.712 13.2547 17.8172 13.1175 17.8735C12.9802 17.9289 12.6304 18.065 12.6304 18.065L12.3417 17.9431L12.1701 18.0017L12.4103 18.244L12.3868 18.5978L12.5659 18.5392L12.6998 18.2519C12.6998 18.2519 13.0631 18.1497 13.2078 18.1133C13.3518 18.0761 13.3192 18.236 13.3192 18.236L13.1827 19L13.4213 18.9216L13.8891 17.9115C13.8891 17.9115 14.0958 17.8347 14.2439 17.7642C14.3921 17.6937 14.4506 17.5639 14.4506 17.5639C14.4506 17.5639 14.3192 17.4958 14.1569 17.5299C13.9937 17.5623 13.7828 17.6265 13.7828 17.6265Z"
+                    fill="#666666"
+                  /></svg
+              ></span>
+            </h3>
+            <p>Book your trip in minute, get full Control for much longer.</p>
+            <div class="f-social-icons">
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <div class="f-company">
+              <h5>Company</h5>
+              <ul>
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Logistic</a>
+                </li>
+                <li>
+                  <a href="#">Privacy & Policy</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end -->
+            <div class="f-contact">
+              <h5>Contact</h5>
+              <ul>
+                <li>
+                  <a href="#">Help/FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Press</a>
+                </li>
+                <li>
+                  <a href="#">Affilates</a>
+                </li>
+              </ul>
+            </div>
+            <!-- end -->
+            <div class="f-more">
+              <h5>Have a Questions</h5>
+              <ul>
+                <li>
+                  <a href="#">Press Centre</a>
+                </li>
+                <li>
+                  <a href="#">Our Blog</a>
+                </li>
+                <li>
+                  <a href="#">Low fare tips</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="f-credits">
+          <p>Copyright, Tanzir Ibne Ali 2023. All rights reserved.</p>
+          <span> Terms & Conditions </span>
+        </div>
+        <div class="footer-bottom">
+          <div class="card-box">
+            <h3>Subscribe and get exclusive deals & offer</h3>
+            <div class="input-form">
+              <div class="input-left">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" required placeholder="Enter Your Mail" />
+              </div>
+              <button class="subs-btn">Subscribe</button>
+            </div>
+            <img
+              class="round-circle"
+              src="assest/img/round-circle.png"
+              alt="image"
+            />
+
+            <img
+              class="subscribeTree"
+              src="assest/img/subscribeTree.png"
+              alt="image"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============================
+    footer section end
+    ============================== -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- my js file -->
+    <script src="assest/js/app.js"></script>
+  </body>
+</html>
